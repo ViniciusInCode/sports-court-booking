@@ -8,7 +8,7 @@ export class BookingController {
 
   @Post()
   create(@Body() booking: Booking): Promise<Booking> {
-    return this.bookingService.create(booking );
+    return this.bookingService.create(booking);
   }
 
   @Get()
